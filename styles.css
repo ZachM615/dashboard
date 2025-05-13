@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.logo-text img {
+    width: 3vw;
+    height: auto;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 60px;
+}
+
+.communities {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 60px 60px;
+}
+
+.logo-text h1 {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.icon-text p {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.communities p {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon-text img {
+    width: 2vw;
+    height: auto;
+}
+
+.communities img {
+    width: 2vw;
+    height: auto;
+}
+
+.main {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar, .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 140px;
+}
+
+.navbar svg {
+    width: 2vw;
+    height: auto;
+}
+
+.form-input {
+    width: 500px;
+    height: 4vh;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 2px solid #d4d4d4;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.avatarNav, .avatarWelcome {
+    margin: 0 20px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 60px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 300px;
+}
+
+.btn {
+    background-color: #0ea5e9;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
+}
+
+.content {
+    background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
