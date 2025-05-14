@@ -144,5 +144,110 @@ body {
 .content {
     background-color: #d4d4d4;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card {
+    background-color: white;
+    border-left: 5px solid #facc15;
+    border-radius: 10px;
+    width: 80%;
+    height: 150px;
+    margin: 15px 0;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+.icons svg {
+    width: 30px;
+    height: auto;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.card h6 {
+    margin-left: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #737373;
+    margin: 10px 0;
+    margin-left: 12px;
+}
+
+h4 {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.announce {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.ann-card, .trend-card {
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ann-text {
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.ann-text h6, .trend-text h6 {
+    font-size: 14px;
+}
+
+.ann-text p, .trend-text p {
+    font-size: 12px;
+    color: #737373;
+}
+
+.divider {
+    border: 0.5px solid #737373;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.trend-card {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.trend-image-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+    padding: 15px;
+}
+
+.trend-text {
+    margin-left: 20px;
 }
